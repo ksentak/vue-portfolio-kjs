@@ -4,6 +4,19 @@ import router from './router';
 // CSS
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/style.css';
+// Icons
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import {
+	faGithub,
+	faLinkedinIn,
+	faStackOverflow,
+	faMedium,
+} from '@fortawesome/free-brands-svg-icons';
+
+library.add(faGithub, faLinkedinIn, faStackOverflow, faMedium);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
