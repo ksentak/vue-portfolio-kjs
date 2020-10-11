@@ -1,7 +1,6 @@
 <template>
 	<div class="Home">
 		<Banner />
-		<Socials />
 	</div>
 </template>
 

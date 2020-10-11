@@ -14,7 +14,29 @@ import {
 	faMedium,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faGithub, faLinkedinIn, faStackOverflow, faMedium);
+import {
+	faEnvelope,
+	faPhone,
+	faMapMarkerAlt,
+	faPlus,
+	faTimes,
+	faCode,
+	faExternalLinkAlt,
+} from '@fortawesome/free-solid-svg-icons';
+
+library.add(
+	faGithub,
+	faLinkedinIn,
+	faStackOverflow,
+	faMedium,
+	faEnvelope,
+	faPhone,
+	faMapMarkerAlt,
+	faPlus,
+	faTimes,
+	faCode,
+	faExternalLinkAlt
+);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
