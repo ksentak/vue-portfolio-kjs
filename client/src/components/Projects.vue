@@ -22,7 +22,11 @@
 								<font-awesome-icon :icon="['fa', 'plus']" size="3x" />
 							</div>
 						</div>
-						<img class="img-fluid portfolio-img" src="#" alt="React-Colors" />
+						<img
+							class="img-fluid portfolio-img"
+							src="../assets/img/react-colors.png"
+							alt="React-Colors"
+						/>
 						<p class="project-title">React Colors</p>
 					</div>
 				</div>
@@ -39,7 +43,11 @@
 								<font-awesome-icon :icon="['fa', 'plus']" size="3x" />
 							</div>
 						</div>
-						<img class="img-fluid portfolio-img" src="#" alt="React-Auth" />
+						<img
+							class="img-fluid portfolio-img"
+							src="../assets/img/react-auth.png"
+							alt="React-Auth"
+						/>
 						<p class="project-title">React User Authentication</p>
 					</div>
 				</div>
@@ -58,7 +66,7 @@
 						</div>
 						<img
 							class="img-fluid portfolio-img"
-							src="#"
+							src="../assets/img/liberty-beans.png"
 							alt="Liberty Beans Coffee"
 						/>
 						<p class="project-title">Liberty Beans Coffee</p>
@@ -79,7 +87,7 @@
 						</div>
 						<img
 							class="img-fluid portfolio-img"
-							src="#"
+							src="../assets/img/GoogleBooks.png"
 							alt="Google Books App"
 						/>
 						<p class="project-title">Google Books</p>
@@ -98,7 +106,11 @@
 								<font-awesome-icon :icon="['fa', 'plus']" size="3x" />
 							</div>
 						</div>
-						<img class="img-fluid portfolio-img" src="#" alt="Omega" />
+						<img
+							class="img-fluid portfolio-img"
+							src="../assets/img/omega.png"
+							alt="Omega"
+						/>
 						<p class="project-title">Omega</p>
 					</div>
 				</div>
@@ -115,7 +127,11 @@
 								<font-awesome-icon :icon="['fa', 'plus']" size="3x" />
 							</div>
 						</div>
-						<img class="img-fluid portfolio-img" src="#" alt="Time Machine" />
+						<img
+							class="img-fluid portfolio-img"
+							src="../assets/img/time_machine.png"
+							alt="Time Machine"
+						/>
 						<p class="project-title">Time Machine</p>
 					</div>
 				</div>

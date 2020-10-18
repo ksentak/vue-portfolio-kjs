@@ -10,7 +10,11 @@
 			</div>
 			<div class="row text-md-left text-center">
 				<div class="col-md-6 mb-3">
-					<img src="#" class="img-fluid profile-picture" alt="Profile" />
+					<img
+						src="../assets/img/profile-headshot.jpg"
+						class="img-fluid profile-picture"
+						alt="Profile Headshot"
+					/>
 				</div>
 				<div class="col-md-6 about-section">
 					<p class="about-text">
@@ -23,7 +27,7 @@
 						and databases. Equipped to work collaboratively in a team setting to
 						ensure optimal results for user and technology centered designs.
 					</p>
-					<a href="#" target="_blank">
+					<a href="../assets/files/Keaton_Sentak_Resume.pdf" target="_blank">
 						<button class="resume-btn mt-2 mb-3">Download Resume</button>
 					</a>
 				</div>
