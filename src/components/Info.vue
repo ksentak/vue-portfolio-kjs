@@ -11,7 +11,7 @@
 			<div class="row text-md-left text-center">
 				<div class="col-md-6 mb-3">
 					<img
-						src="../assets/img/profile-headshot.jpg"
+						src="@/assets/img/profile-headshot.jpg"
 						class="img-fluid profile-picture"
 						alt="Profile Headshot"
 					/>
@@ -27,7 +27,7 @@
 						and databases. Equipped to work collaboratively in a team setting to
 						ensure optimal results for user and technology centered designs.
 					</p>
-					<a href="../assets/files/Keaton_Sentak_Resume.pdf" target="_blank">
+					<a href="@/assets/files/Keaton_Sentak_Resume.pdf" target="_blank">
 						<button class="resume-btn mt-2 mb-3">Download Resume</button>
 					</a>
 				</div>
@@ -41,3 +41,27 @@
 		name: 'Info',
 	};
 </script>
+
+<style scoped>
+	.profile-picture {
+		height: 350px;
+		width: 415px;
+		border-radius: 6px;
+	}
+
+	.about-text {
+		line-height: 28px;
+	}
+
+	.resume-btn {
+		background-color: var(--secondary);
+		color: #fff !important;
+		padding: 18px 40px;
+		border: 2px solid var(--primary);
+		border-radius: 100px;
+	}
+
+	.resume-btn:hover {
+		background-color: var(--primary);
+	}
+</style>
