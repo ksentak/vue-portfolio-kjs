@@ -1,7 +1,24 @@
-# Vue Portfolio
+# vue-portfolio-kjs
 
----
+## Project setup
+```
+npm install
+```
 
-This is my personal website portfolio built with a Node back-end and Vue front-end. I initially developed the project with React and am creating a version with a Vue front-end in order to help teach myself Vue.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
----
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
