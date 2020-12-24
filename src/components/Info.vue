@@ -1,5 +1,5 @@
 <template>
-	<div class="Info">
+	<div class="info">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-export default {
-	name: 'Info',
-};
+	export default {
+		name: 'Info',
+	};
 </script>
